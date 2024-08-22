@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.10)
+project(AdvancedHTTPServer)
+
+set(CMAKE_CXX_STANDARD 11)
+
+# Add the necessary libraries
+find_package(JsonCpp REQUIRED)
+
+add_executable(http_server http_server.cpp)
+
+# Link the JsonCpp library
+target_link_libraries(http_server JsonCpp::JsonCpp)
