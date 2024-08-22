@@ -1,7 +1,7 @@
 # C++ HTTP Server Project
 
 ## Description
-This is an advanced C++ HTTP server that serves static files, provides a simple JSON API, and handles multiple clients concurrently using multithreading.
+C++ HTTP server that serves static files, provides a simple JSON API, and handles multiple clients concurrently using multithreading.
 
 ## Dependencies
 
